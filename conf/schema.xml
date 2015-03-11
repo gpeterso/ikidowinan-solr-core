@@ -180,8 +180,12 @@
     <field name="all_text_timv" type="text" stored="false" indexed="true" multiValued="true" termVectors="true" termPositions="true" termOffsets="true"/>
     <copyField source="*_tsi" dest="all_text_timv"/>
     <copyField source="*_tsim" dest="all_text_timv"/>
+    <copyField source="*_tesi" dest="all_text_timv"/>
+    <copyField source="*_tesim" dest="all_text_timv"/>
     <copyField source="*_ssi" dest="all_text_timv"/>
     <copyField source="*_ssim" dest="all_text_timv"/>
+    <copyField source="*_isi" dest="all_text_timv"/>
+    <copyField source="*_isim" dest="all_text_timv"/>
 
 
     <!-- deprecated fields from pre-Solr 4.0 pre-hydra 5.0 -->
