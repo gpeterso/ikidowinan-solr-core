@@ -72,7 +72,6 @@
          tags_ssim
          import_job_name_ssi
          import_job_id_isi
-         published_bsi
        </str>
        <str name="pf">
          id
@@ -89,7 +88,6 @@
          tags_ssim
          import_job_name_ssi
          import_job_id_isi
-         published_bsi
        </str>
        <str name="creator_qf">
          creator_ssi^200
