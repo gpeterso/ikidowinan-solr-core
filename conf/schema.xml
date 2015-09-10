@@ -188,8 +188,6 @@
           indexed="true" stored="true" multiValued="false" />
    <copyField source="ss_field_lemma"
           dest="soj_field_lemma" />
-   <copyField source="ts_field_keyword"
-          dest="ss_field_keyword" />
 
    <!-- Copyfields that are provide a more user-friendly name
         for users doing an advanced search -->

@@ -24,7 +24,7 @@
     </updateLog>
 
     <autoCommit>
-      <maxTime>${solr.autoCommit.maxTime:15000}</maxTime>
+      <maxTime>${solr.autoCommit.maxTime:600}</maxTime>
       <openSearcher>false</openSearcher>
     </autoCommit>
 
@@ -61,7 +61,9 @@
        <str name="qf">
          id
          ss_field_lemma^100000
+         soj_field_lemma^100000
          ss_field_word_stem^25000
+         soj_field_word_stem^25000
          ts_field_keyword^100000
        </str>
        <str name="pf">
