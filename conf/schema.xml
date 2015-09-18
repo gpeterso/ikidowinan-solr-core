@@ -57,7 +57,7 @@
    <!-- Copyfields that are provide a more user-friendly name
         for users doing an advanced search -->
 
-   <field name="lemma" type="text_ojibwe"
+   <field name="lemma" type="sortString"
           indexed="true" stored="true" multiValued="false" />
    <copyField source="soj_field_lemma" dest="lemma" />
    <field name="word_stem" type="string_ojibwe"
