@@ -268,7 +268,7 @@
       http://wiki.apache.org/solr/SolrAdaptersForLuceneSpatial4
     -->
     <fieldType name="location_rpt" class="solr.SpatialRecursivePrefixTreeFieldType"
-      geo="true" distErrPct="0.025" maxDistErr="0.000009" />
+               geo="true" distErrPct="0.025" maxDistErr="0.001" distanceUnits="kilometers" />
 
     <!-- A text field that only splits on whitespace for exact matching of words -->
     <fieldType name="text_ws" class="solr.TextField" positionIncrementGap="100">
